@@ -1,0 +1,9 @@
+azure_os_disk_name = tolist([
+  "myOsDisk",
+])
+azure_vm_location = "eastus"
+azure_vm_name = "dof01"
+public_ip_address = "52.188.56.135"
+resource_group_name = "resGroup"
+tls_private_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDfcO3es4cxzANMrXADTa55eui0RPwIakBrFKPAQNNk3KX0YbEGxlhI3+BRo0RWgwk6XQz5zo3gsKNwFhI7nBEnGhfW3OteHLHKvNaVwwwd2Yyt8Of2IkGeYqwH31dsM3p1U7F1Bdt0wSQ3ng4t+jX6Y5JS8rLf9gsdPysG0hkP1t7Rby1s2I/isYqk+q0ZWgJd5qqtEmsXHYIDbqI48u383vZaCy05klaDQHZHbWsaw3eSZZviMUiyZmIQi4T7Xe2qR2KzCzqIJkGXbWOm6Lyi+3bg28sLpYexTW8UYariyKDm+yzxaR4cxnU00OVlplY9t7bT65iveUATcD+Qbkukr68WKK3EDxdW0sVrI0ns/+jckwKTWdAvrtTrYFx/Mq9VdTAHm6oGw0lr8EyP4g9VDA1TXr4MUP8FNHAtatruC0zdPETKJvRZRLnU0OsfJeC7zNhj+ypBMnIckFq5vf601YO9d4tboJDLRAJCHp3fPQcjED9K1qBVpSvjth8CPoE= generated-by-azure"
+vm_size = "Standard_B1ls"

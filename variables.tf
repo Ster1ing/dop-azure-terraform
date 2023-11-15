@@ -6,11 +6,12 @@ variable "resource_group_location" {
 
 variable "resource_group_name" {
   type        = string
-  default     = "<your resource group>"
+  default     = "resGroup"
   description = "Name of the resource group."
 
 }
 
+#TODO resource_group_name_prefix
 variable "resource_group_name_prefix" {
   type        = string
   default     = "rg"
@@ -40,7 +41,7 @@ variable "storage_account_type" {
 variable "azurerm_vm_size" {
   type        = string
   description = "The availability vm size where the instance will be deployed"
-  default     = "Standard_B1ls"  
+  default     = "Standard_B1ls"
 }
 
 variable "vnet_range" {
@@ -57,43 +58,43 @@ variable "subnet_range" {
 variable "source_image_reference_publisher" {
   type        = string
   description = "The availability os image publisher where the instance will be deployed"
-  default     = "Canonical"  
+  default     = "Canonical"
 }
 
 variable "source_image_reference_offer" {
   type        = string
   description = "The availability os image offer where the instance will be deployed"
-  default     = "0001-com-ubuntu-server-jammy"  
+  default     = "0001-com-ubuntu-server-jammy"
 }
 
 variable "source_image_reference_sku" {
   type        = string
   description = "The availability os image sku where the instance will be deployed"
-  default     = "22_04-lts-gen2"  
+  default     = "22_04-lts-gen2"
 }
 
 variable "source_image_reference_version" {
   type        = string
   description = "The availability os image version where the instance will be deployed"
-  default     = "latest"  
+  default     = "latest"
 }
 
 variable "azurerm_virtual_network_name" {
   type        = string
   description = "Name of your virtual network "
-  default     = "myVnet"  
+  default     = "myVnet"
 }
 
 variable "azurerm_subnet_name" {
   type        = string
   description = "Name of your subnetwork in virtual network "
-  default     = "mySubnet"  
+  default     = "mySubnet"
 }
 
 variable "azurerm_public_ip" {
   type        = string
   description = "Public ip of your virtual network "
-  default     = "myPublicIP"  
+  default     = "myPublicIP"
 }
 
 
